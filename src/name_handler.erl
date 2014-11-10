@@ -13,7 +13,7 @@ handle(Req, _Args) ->
   handle(Req#req.method, elli_request:raw_path(Req), Req).
 
 handle('GET', <<"/">>, _Req) ->
-  {200, [{<<"content-type">>, <<"txt/plain">>}], <<"Hi there!">>};
+  {200, [{<<"content-type">>, <<"text/html">>}], <<"Hi there!">>};
 
 handle('GET', _Uri, _Req) ->
   {404, [], <<"Not Found">>};
