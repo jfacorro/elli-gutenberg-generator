@@ -1,0 +1,13 @@
+{application, {{NAME}},
+ [
+  {description, "{{NAME}}"},
+  {vsn, "0.1"},
+  {applications,
+   [
+    kernel,
+    stdlib
+   ]},
+  {modules, [{{NAME}}]},
+  {mod, {{{NAME}}, []}}
+ ]
+}.

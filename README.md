@@ -1,4 +1,4 @@
-elli-gutenberg-generator
-========================
+{{NAME}}
+====
 
-elli project generator - web server
+Write a description for your awesome application.
